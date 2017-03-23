@@ -1,0 +1,203 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	/*background-color: rgb(132, 119, 21);*/
+}
+.shadow{
+	background-color: rgb(56, 56, 56);
+}
+#backgroundImg {
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	position: fixed;
+	z-index: 1;
+}
+#nav_Bar {
+	width: 100%;
+	height:10%;
+	background-color: rgba(0, 0, 0, 0);
+	position: fixed;
+	z-index: 4;
+}
+a {
+	display: inline-block;
+	float: right;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-decoration: none;
+	color: white;
+	border-left: 2px solid white;
+
+}
+#headerImg {
+	width: 15%;
+	height: 10%;
+	margin-left: -3%;
+	position: fixed;
+	float: left;
+	display: inline-block;
+	z-index: 4;
+}
+#karatPlace {
+	font-size: 170px;
+	color: white;
+	margin-top: 15%;
+	margin-left:17.5%;
+	text-align: center;
+	position: fixed;
+	z-index: 2;
+	text-shadow: 15px 15px 20px black;
+}
+.leftParagraph {
+	width: 50%;
+	height:60%;
+	margin-top: 50%;
+	background-color: grey;
+	opacity: 0.8;
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+}
+.rightParagraph {
+	width: 50%;
+	height:60%;
+	margin-left: 50%;
+	margin-top: 50%;
+	background-color: black;
+	opacity: 0.8;
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+}
+.paragraphHeadings {
+	text-align: center;
+	text-shadow: 5px 5px 10px black;
+	font-size: 36px;
+	font-family: cursive;
+	color: white;
+}
+p {
+	width: 60%;
+	margin: auto;
+	font-size:32px;
+	color: white;
+	text-align: center;
+	text-shadow: 3px 3px 3px black;
+}
+
+/*This is the basic background color for all pages - the main*/
+
+/*.backgroundColor {
+	width:100%;
+	height: 100%%;
+	background-color: rgb(199, 204, 200);
+}*/
+#board_h2 {
+	font-size: 89px;
+	color: blue;
+	text-align: center;
+	text-shadow: 5px 5px 5px black;
+	margin-top: -7.3%;
+}
+
+
+
+
+/* This is the code for the Board Page */
+#boardH1 {
+
+	font-size: 170px;
+	color: white;
+	margin-top: 15%;
+	margin-left:17.5%;
+	text-align: center;
+	position: fixed;
+	z-index: 2;
+	text-shadow: 15px 15px 20px black;
+}
+#nav_Bar_Board {
+	width: 100%;
+	height:10%;
+	background-color: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	z-index: 4;
+}
+#backgroundImgBoard {
+	width: 100%;
+	height: 100%;
+	/*margin-top: -30%;*/
+	position: fixed;
+	z-index: 1;
+}
+#BackgroundColorContainer{
+	background-color:rgba(0, 0, 0,0.6); /*rgba(0,0,0,0.7);*/
+	width: 100%;
+	height: 419%;
+	margin-top: 50%;
+	position: absolute;
+	z-index: 2;
+	}
+	#pageDivider {
+		width: 100%;
+		height: 15%;
+		margin-top: 46%;
+		position: absolute;
+		z-index: 3;
+		background-color: rgba(0, 0, 0,0.8);
+	}
+	#contientContainer {
+		width:50%;
+		height: auto%;
+		margin-left: 25%;
+		margin-top: 2%;
+		background-color: rgba(153, 153, 153,0.9);
+		position: absolute;
+		z-index: 2;
+		box-shadow: inset 1px -8px 20px 6px rgba(0,0,0,0.5);
+	}
+.boardMemberPictures{
+	width: 20%;
+	height: auto;
+	shadow: 5px black;
+	margin-left: 36%;
+	margin-top: -20%;
+	padding: 3%;
+	position: absolute;
+	z-index: 3;
+	box-shadow: 1px -1px 10px 2px rgb(77,77,77);
+}
+
+
+}
+.aLinksColor {
+	color: purple;
+	font-size: 16px;
+	border-left: 2px solid yellow;
+}
+
+table {
+	width: auto;
+	height: 100%;
+	margin: auto;
+}
+td {
+	text-align: center;
+	font-size: 30px;
+	margin-top: -6%;
+	text-shadow: 0px -5px 8px black;
+}
+tr {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.memberPhotos {
+	height: 30%;
+	width: 30%;
+	margin: auto;
+	margin-top: 10%;
+}
